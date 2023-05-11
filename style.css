@@ -1,11 +1,11 @@
 body {
-	display: flex;
-	flex-direction: column;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background: #efefef;
-	font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+    font-family: 'Montserrat', sans-serif;
 }
 header,
 .intro,
@@ -14,126 +14,127 @@ header,
 .cta,
 .box,
 footer {
-	display: flex;
+    display: flex;
 }
 
 header {
-	justify-content: space-between;
-	align-items: start;
-	padding: 1vh 10vh;
-	background-color: #ffffff;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1vh 10vh;
+    background-color: #ffffff;
 }
 
 .logo img {
-	width: 10vh;
-	height: 10vh;
+    width: 10vh;
+    height: 10vh;
 }
 nav {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 li {
-	padding: 10px;
+    padding: 10px;
 }
 
 a {
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .intro {
-	align-items: center;
-	padding: 1vh 10vh 5vh;
+    align-items: center;
+    padding: 1vh 10vh 5vh;
 }
 
 .left-intro,
 .right-intro {
-	width: 50%;
+    width: 50%;
 }
 
 .right-intro {
-	justify-content: center;
-	align-items: center;
-	position: relative;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .right-intro p {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
-	font-size: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50%;
 }
 .right-intro p,
 .right-intro a {
-	color: #35346e;
+    color: #35346e;
 }
 
 .right-intro img {
-	box-shadow: 10px 10px 10px #048dc5;
-	width: 100%;
+    box-shadow: 10px 10px 10px #048dc5;
+    width: 100%;
 }
 
 .first-button {
-	margin-top: 30px;
-	padding: 10px 20px;
-	background-color: transparent;
-	border: solid 1px #35346e;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 1px #35346e;
+    cursor: pointer;
 }
 
 .random-info {
-	padding: 0 10vh;
-	background-color: #ffffff;
+    padding: 0 10vh;
+    background-color: #ffffff;
 }
 
 h2 {
-	text-align: center;
+    text-align: center;
 }
 
 .random-boxes {
-	justify-content: space-evenly;
-	align-items: center;
-	padding: 1vh 10vh;
-	flex-basis: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: auto;
+    padding: 1vh 10vh;
 }
 .box-container {
-	padding: 1vh;
-	width: 100%;
+    width: 100%;
+    padding: 1vh;
 }
 .box {
-	justify-content: center;
-	align-items: center;
-	aspect-ratio: 1/1;
-	border: solid 2rem;
-	border-radius: 20px;
+    aspect-ratio: 1/1;
+    justify-content: center;
+    align-items: center;
+    border: solid 2rem;
+    border-radius: 20px;
 }
 
 .box p {
-	font-size: 2vh;
+    font-size: 2vh;
 }
 .box1 {
-	border-color: #35346e;
+    border-color: #35346e;
 }
 .box2 {
-	border-color: #59be2a;
+    border-color: #59be2a;
 }
 .box3 {
-	border-color: #b7f608;
+    border-color: #b7f608;
 }
 .box4 {
-	border-color: #dd0e1c;
+    border-color: #dd0e1c;
 }
 
 .quote {
-	padding: 2vh 10vh;
+    padding: 2vh 10vh;
     text-align: center;
 }
 
@@ -141,3 +142,43 @@ h2 {
     text-align: right;
 }
 
+.cta {
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5vh;
+    padding: 2vh;
+    background-color: #3b82f6;
+    color: #fff;
+    text-align: center;
+}
+.text-cta {
+    font-size: 2vh;
+    width: 70%;
+}
+.another-button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.black {
+    color:black
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 10vh;
+    background-color:#efefef;
+}
