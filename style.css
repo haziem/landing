@@ -118,7 +118,8 @@ h2 {
 }
 
 .box p {
-    font-size: 2vh;
+    font-size: 11vh;
+    margin: 0;
 }
 .box1 {
     border-color: #35346e;
